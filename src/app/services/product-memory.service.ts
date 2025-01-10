@@ -7,6 +7,10 @@ export class ProductMemoryService {
 
     private products: Product[] = [];
 
+    getAll() {
+      return this.products;
+    }
+    
     create(data: CreateProductDto): Product {
         const newProduct = {
           ...data,
@@ -20,7 +24,7 @@ export class ProductMemoryService {
 
         return this.add(newProduct);
         
-      }
+    }
 
     add(product: Product) {
       this.products.push(product);
