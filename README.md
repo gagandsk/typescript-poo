@@ -15,3 +15,8 @@ npx ts-node nombre_archivo
 
 API para pruebas:
 https://api.escuelajs.co/docs
+
+Transforma un objeto en interfaces y otras cosas
+```
+https://app.quicktype.io/ 
+```
