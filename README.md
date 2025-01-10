@@ -12,3 +12,6 @@ Ejecutar un archivo con ts-node
 ```
 npx ts-node nombre_archivo
 ```
+
+API para pruebas:
+https://api.escuelajs.co/docs
